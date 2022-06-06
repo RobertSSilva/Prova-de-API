@@ -4,6 +4,7 @@ const con=await mysql.createConnection({
     user:process.env.mysql_user,
     password:process.env.mysql_pwd,
     database:process.env.mysql_db,
+
 })console.log ('BD conectado');
 
 export { con }
